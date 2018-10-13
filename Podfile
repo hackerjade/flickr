@@ -3,6 +3,7 @@ target 'flickr' do
   use_frameworks!
 
   pod 'SwiftyJSON'
+  pod 'PureLayout'
   pod 'ProcedureKit'
 end
 

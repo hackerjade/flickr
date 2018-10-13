@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import PureLayout
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UISearchResultsUpdating {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.searchBar.placeholder = "Photos, peoples or groups"
+        navigationItem.searchController = searchController
+        definesPresentationContext = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // MARK: - UISearchResultsUpdating Delegate
+    func updateSearchResults(for searchController: UISearchController) {
+        print("jade text! \(searchController.searchBar.text)")
+    }
 }
 

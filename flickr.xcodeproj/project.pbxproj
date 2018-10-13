@@ -216,11 +216,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-flickr/Pods-flickr-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ProcedureKit/ProcedureKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProcedureKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

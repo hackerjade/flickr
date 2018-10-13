@@ -2,21 +2,25 @@ PODS:
   - ProcedureKit (4.5.0):
     - ProcedureKit/Standard (= 4.5.0)
   - ProcedureKit/Standard (4.5.0)
+  - PureLayout (3.1.2)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - ProcedureKit
+  - PureLayout
   - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ProcedureKit
+    - PureLayout
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   ProcedureKit: 023e4600e921fe0b8d94f2d19ed680df83aa28ba
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 7bc08d3b972347f9b984069154822afffd7fa79a
+PODFILE CHECKSUM: 0413e8e2ca81a01741da69a57f83811d9be323d6
 
 COCOAPODS: 1.5.3
