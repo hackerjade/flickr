@@ -1,0 +1,22 @@
+PODS:
+  - ProcedureKit (4.5.0):
+    - ProcedureKit/Standard (= 4.5.0)
+  - ProcedureKit/Standard (4.5.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - ProcedureKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ProcedureKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ProcedureKit: 023e4600e921fe0b8d94f2d19ed680df83aa28ba
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 7bc08d3b972347f9b984069154822afffd7fa79a
+
+COCOAPODS: 1.5.3
