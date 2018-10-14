@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ProcedureKit
 
 class SearchImageViewController: UICollectionViewController, ImageObserver, UISearchBarDelegate {
     override func viewDidLoad() {

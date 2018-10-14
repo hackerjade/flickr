@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "flickr/Views/SearchImageViewController.swift"
-            timestampString = "561179926.648862"
+            timestampString = "561181008.657325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "newImagesLoaded()"
             landmarkType = "7">
          </BreakpointContent>
