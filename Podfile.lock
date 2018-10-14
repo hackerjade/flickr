@@ -1,4 +1,7 @@
 PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
   - ProcedureKit (4.5.0):
     - ProcedureKit/Standard (= 4.5.0)
   - ProcedureKit/Standard (4.5.0)
@@ -6,21 +9,27 @@ PODS:
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
   - ProcedureKit
   - PureLayout
   - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
     - ProcedureKit
     - PureLayout
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
   ProcedureKit: 023e4600e921fe0b8d94f2d19ed680df83aa28ba
   PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 0413e8e2ca81a01741da69a57f83811d9be323d6
+PODFILE CHECKSUM: 6d87a3f8abdf48e13a1403ac446b17e3ac193d02
 
 COCOAPODS: 1.5.3
