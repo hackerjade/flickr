@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ProcedureKit
 
 class SearchImageViewController: UICollectionViewController, ImageObserver, UISearchBarDelegate {
     override func viewDidLoad() {
@@ -19,6 +20,10 @@ class SearchImageViewController: UICollectionViewController, ImageObserver, UISe
         navigationItem.searchController = searchController
         
         navigationController?.navigationBar.isTranslucent = false
+        let imageView = UIImageView(image: UIImage(named: "logo"))
+        let titleView = UIView(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
+        titleView.addSubview(imageView)
+        navigationItem.titleView = titleView
         navigationItem.hidesSearchBarWhenScrolling = false
         definesPresentationContext = true
         
